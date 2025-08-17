@@ -6,8 +6,6 @@ public class Hazard : MonoBehaviour
     {
         var player = other.GetComponent<PlayerController2D>();
         if (player != null)
-        {
             player.Respawn();
-        }
     }
 }

@@ -12,7 +12,7 @@ public class Coin : MonoBehaviour
             EndGame();
         }
     }
-
+    
     void EndGame()
     {
         Debug.Log("You reached the coin!");
